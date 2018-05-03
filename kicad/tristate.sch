@@ -1,0 +1,269 @@
+EESchema Schematic File Version 4
+LIBS:tristate-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L tristate-rescue:CONN_02X05 J1
+U 1 1 5A9DF6ED
+P 2750 3150
+F 0 "J1" H 2750 3450 50  0000 C CNN
+F 1 "CONN_02X05" H 2750 2850 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x05_Pitch2.54mm" H 2750 1950 50  0001 C CNN
+F 3 "" H 2750 1950 50  0001 C CNN
+	1    2750 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L tristate-rescue:LED D2
+U 1 1 5A9E06BA
+P 5250 2800
+F 0 "D2" H 5250 2900 50  0000 C CNN
+F 1 "Blue" H 5250 2700 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 5250 2800 50  0001 C CNN
+F 3 "" H 5250 2800 50  0001 C CNN
+F 4 "Blue" H 5250 2800 60  0001 C CNN "Color"
+	1    5250 2800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L tristate-rescue:LED D3
+U 1 1 5A9E4309
+P 5250 3100
+F 0 "D3" H 5250 3200 50  0000 C CNN
+F 1 "Blue" H 5250 3000 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 5250 3100 50  0001 C CNN
+F 3 "" H 5250 3100 50  0001 C CNN
+F 4 "Blue" H 5250 3100 60  0001 C CNN "Color"
+	1    5250 3100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L tristate-rescue:LED D1
+U 1 1 5A9E4341
+P 5250 2500
+F 0 "D1" H 5250 2600 50  0000 C CNN
+F 1 "Red" H 5250 2400 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 5250 2500 50  0001 C CNN
+F 3 "" H 5250 2500 50  0001 C CNN
+F 4 "Red" H 5250 2500 60  0001 C CNN "Color"
+	1    5250 2500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L tristate-rescue:LED D4
+U 1 1 5A9E438A
+P 5250 3400
+F 0 "D4" H 5250 3500 50  0000 C CNN
+F 1 "Blue" H 5250 3300 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 5250 3400 50  0001 C CNN
+F 3 "" H 5250 3400 50  0001 C CNN
+F 4 "Blue" H 5250 3400 60  0001 C CNN "Color"
+	1    5250 3400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L tristate-rescue:LED D5
+U 1 1 5A9E43C2
+P 5250 3700
+F 0 "D5" H 5250 3800 50  0000 C CNN
+F 1 "Blue" H 5250 3600 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 5250 3700 50  0001 C CNN
+F 3 "" H 5250 3700 50  0001 C CNN
+F 4 "Blue" H 5250 3700 60  0001 C CNN "Color"
+	1    5250 3700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L tristate-rescue:R R1
+U 1 1 5A9E4A72
+P 4950 2500
+F 0 "R1" V 5030 2500 50  0000 C CNN
+F 1 "200" V 4950 2500 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 4880 2500 50  0001 C CNN
+F 3 "" H 4950 2500 50  0001 C CNN
+	1    4950 2500
+	0    1    -1   0   
+$EndComp
+$Comp
+L tristate-rescue:R R2
+U 1 1 5A9E4A9F
+P 4950 2800
+F 0 "R2" V 5030 2800 50  0000 C CNN
+F 1 "200" V 4950 2800 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 4880 2800 50  0001 C CNN
+F 3 "" H 4950 2800 50  0001 C CNN
+	1    4950 2800
+	0    1    -1   0   
+$EndComp
+$Comp
+L tristate-rescue:R R3
+U 1 1 5A9E4B03
+P 4950 3100
+F 0 "R3" V 5030 3100 50  0000 C CNN
+F 1 "200" V 4950 3100 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 4880 3100 50  0001 C CNN
+F 3 "" H 4950 3100 50  0001 C CNN
+	1    4950 3100
+	0    1    -1   0   
+$EndComp
+$Comp
+L tristate-rescue:R R4
+U 1 1 5A9E4B36
+P 4950 3400
+F 0 "R4" V 5030 3400 50  0000 C CNN
+F 1 "200" V 4950 3400 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 4880 3400 50  0001 C CNN
+F 3 "" H 4950 3400 50  0001 C CNN
+	1    4950 3400
+	0    1    -1   0   
+$EndComp
+$Comp
+L tristate-rescue:R R5
+U 1 1 5A9E4B71
+P 4950 3700
+F 0 "R5" V 5030 3700 50  0000 C CNN
+F 1 "200" V 4950 3700 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 4880 3700 50  0001 C CNN
+F 3 "" H 4950 3700 50  0001 C CNN
+	1    4950 3700
+	0    1    -1   0   
+$EndComp
+$Comp
+L tristate-rescue:LED D6
+U 1 1 5A9E532B
+P 5250 4000
+F 0 "D6" H 5250 4100 50  0000 C CNN
+F 1 "Blue" H 5250 3900 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 5250 4000 50  0001 C CNN
+F 3 "" H 5250 4000 50  0001 C CNN
+F 4 "Blue" H 5250 4000 60  0001 C CNN "Color"
+	1    5250 4000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L tristate-rescue:R R6
+U 1 1 5A9E5377
+P 4950 4000
+F 0 "R6" V 5030 4000 50  0000 C CNN
+F 1 "200" V 4950 4000 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" V 4880 4000 50  0001 C CNN
+F 3 "" H 4950 4000 50  0001 C CNN
+	1    4950 4000
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2150 2950 2500 2950
+Wire Wire Line
+	2150 3050 2500 3050
+Wire Wire Line
+	2150 3150 2500 3150
+Wire Wire Line
+	2150 3250 2500 3250
+Wire Wire Line
+	2150 3350 2500 3350
+Wire Wire Line
+	3000 3150 3350 3150
+Wire Wire Line
+	3000 3250 3350 3250
+Wire Wire Line
+	3000 3350 3350 3350
+Text Label 2150 2950 0    60   ~ 0
+3V3
+Text Label 2150 3050 0    60   ~ 0
+GPIO2
+Text Label 2150 3150 0    60   ~ 0
+GPIO3
+Text Label 2150 3250 0    60   ~ 0
+GPIO4
+Text Label 2150 3350 0    60   ~ 0
+GND
+Text Label 3350 3150 2    60   ~ 0
+GND
+Text Label 3350 3250 2    60   ~ 0
+GPIO14
+Text Label 3350 3350 2    60   ~ 0
+GPIO15
+Wire Wire Line
+	4350 2500 4800 2500
+Wire Wire Line
+	4350 2800 4800 2800
+Wire Wire Line
+	4350 3100 4800 3100
+Wire Wire Line
+	4350 3400 4800 3400
+Wire Wire Line
+	4350 4000 4800 4000
+Wire Wire Line
+	5700 2500 5700 2800
+Wire Wire Line
+	5400 2500 5700 2500
+Wire Wire Line
+	5400 2800 5700 2800
+Connection ~ 5700 2800
+Wire Wire Line
+	5400 3100 5700 3100
+Connection ~ 5700 3100
+Wire Wire Line
+	5400 3400 5700 3400
+Connection ~ 5700 3400
+Wire Wire Line
+	5400 3700 5700 3700
+Connection ~ 5700 3700
+Wire Wire Line
+	5400 4000 5700 4000
+Connection ~ 5700 4000
+$Comp
+L power:GND #PWR01
+U 1 1 5AA3AD99
+P 5700 4300
+F 0 "#PWR01" H 5700 4050 50  0001 C CNN
+F 1 "GND" H 5700 4150 50  0000 C CNN
+F 2 "" H 5700 4300 50  0001 C CNN
+F 3 "" H 5700 4300 50  0001 C CNN
+	1    5700 4300
+	1    0    0    -1  
+$EndComp
+Text Label 4350 2500 0    60   ~ 0
+3V3
+Text Label 4350 2800 0    60   ~ 0
+GPIO2
+Text Label 4350 3100 0    60   ~ 0
+GPIO3
+Text Label 4350 3400 0    60   ~ 0
+GPIO4
+Text Label 4350 3700 0    60   ~ 0
+GPIO14
+Text Label 4350 4000 0    60   ~ 0
+GPIO15
+Wire Wire Line
+	4350 3700 4800 3700
+Connection ~ 5700 2500
+Text Label 6000 2500 2    60   ~ 0
+GND
+NoConn ~ 3000 2950
+NoConn ~ 3000 3050
+Wire Wire Line
+	5700 2800 5700 3100
+Wire Wire Line
+	5700 3100 5700 3400
+Wire Wire Line
+	5700 3400 5700 3700
+Wire Wire Line
+	5700 3700 5700 4000
+Wire Wire Line
+	5700 4000 5700 4300
+Wire Wire Line
+	5700 2500 6000 2500
+$EndSCHEMATC

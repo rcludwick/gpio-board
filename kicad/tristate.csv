@@ -1,0 +1,4 @@
+Refs,Value,Footprint,Quantity,MFR,MPN,SPR,SPN
+D2;D3;D1;D4;D5;D6,LED,LEDs:LED_1206,6,-,-,-,-
+J1,CONN_02X05,Pin_Headers:Pin_Header_Straight_2x05_Pitch2.54mm,1,-,-,-,-
+R1;R2;R3;R4;R5;R6,200,Resistors_SMD:R_1206_HandSoldering,6,-,-,-,-
